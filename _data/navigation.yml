@@ -1,12 +1,29 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "L'association"
+    url: /agcl/
+  - title: "Art traditionnel Lishi"
+    url:  /lishi/
+  - title: "Cours et stages"
+    url: /cours/
+  - title: "Liens"
+    url: /liens/
+  - title: "Nous contacter"
+    url: /contact/  
+  
+
+breadcrumb_links:
+   - link: /
+     label: Accueil
+   - link: agcl
+     label: L'association  
+   - link: lishi
+     label: Art traditionnel Lishi
+   - link: cours
+     label: Cours et Stages
+   - link: contact
+     label: Contact
+   - link: actualites
+     label: Actualités
+   - link: liens
+     label: liens

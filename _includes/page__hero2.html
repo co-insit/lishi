@@ -1,3 +1,5 @@
+{% include_cached masthead.html %} <!-- Insertion de la barre de navigation ici -->
+
 {% capture overlay_img_path %}{{ page.header.overlay_image | relative_url }}{% endcapture %}
 
 {% if page.header.overlay_filter contains "gradient" %}
@@ -34,7 +36,7 @@
         {% if page.tagline %}
             <p class="page__lead">{{ page.tagline | markdownify | remove: "<p>" | remove: "</p>" }}</p>
         {% elsif page.header.show_overlay_excerpt != false and page.excerpt %}
-            <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+        <!--    <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p> --><!-- suppression de l'affichage de l'excerpt dans le bandeau des articles blog -->
         {% endif %}
         {% include page__meta.html %}
         {% if page.header.cta_url %}
@@ -56,9 +58,9 @@
   {% endif %}
   {% if page.header.caption %}
     <span class="page__hero-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
-  {% endif %}
+  {% endif %} 
 </div>
 
-<!-- Insertion de la barre de navigation ici -->
-{% include_cached masthead.html %}
+
+
 
