@@ -11,23 +11,23 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "fr-FR"
-title                    : "Lichi France"
+title                    : "Lishi France"
 title_separator          : "-"
 subtitle                 : "Association de Gymnastique Chinoise de Lyon" # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "L'objectif de l'Association de Gymnastique Chinoise de Lyon est de permettre à toute personne le désirant d'apprendre et de progresser dans le système d'exercices que nous a légué la famille Li : travail doux et fluide des arts culturels, exercices plus dynamiques du Feng Shou et du Chi Shu, pratiques de santé. Elle a pour volonté de fournir des exercices adaptés à chaque niveau, dans un cadre convivial où chacun s'enrichit des différences des autres."
+description              : "Lishi, wei hai li shi quan fa, gymnastique chinoise, arts martiaux, arts internes, arts énergétiques, yoga taoïste, culture physique chinoise, tai chi chuan, tai ji quan, taïchi chuan, taichi, chi kong, qi gong, qigong, chi gong, kai men, tao yin, dao yin, daoying, kung fu, wu shu, feng shou, chi shu, relaxation, respiration, bien etre, sante, la doua, charpennes, tonkin, gratte ciel, croix luizet, croix luiset, cusset, buers, villeurbanne, lyon"
+url                      : http://lishi.fr # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "co-insit/lishi" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : assets/photos/sigle_agcl2.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -61,7 +61,7 @@ atom_feed:
   hide                   : # true, false (default)
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
-search_provider          : true # lunr (default), algolia, google
+search_provider          : lunr # lunr (default), algolia, google
 lunr:
   search_within_pages    : # true, false (default)
 algolia:
@@ -69,13 +69,7 @@ algolia:
   index_name             : # YOUR_INDEX_NAME
   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : # true (default), false
-google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
-# SEO Related
-google_site_verification :
-bing_site_verification   :
-naver_site_verification  :
+google                   : #
 yandex_site_verification :
 baidu_site_verification  :
 
@@ -104,10 +98,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : # ""
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : # "I am an **amazing** person."
+  location         : # "Ici et ailleurs"
   email            :
   links:
     - label: "Email"
@@ -276,6 +270,11 @@ compress_html:
   ignore:
     envs: development
 
+# Collections
+collections:
+  actualites:
+      output: true
+      permalink: /:collection/:path/
 
 # Defaults
 defaults:
