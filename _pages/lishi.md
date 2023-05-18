@@ -1,5 +1,5 @@
 ---
-layout: single_sans-nav
+layout: single
 title: "Art traditionnel Lishi"
 permalink: /lishi/
 lang: fr

@@ -19,7 +19,7 @@ locale                   : "fr-FR"
 title                    : "Lishi France"
 title_separator          : "-"
 subtitle                 : "Association de Gymnastique Chinoise de Lyon" # site tagline that appears below site title in masthead
-name                     : "L'objectif de l'Association de Gymnastique Chinoise de Lyon est de permettre à toute personne le désirant d'apprendre et de progresser dans le système d'exercices que nous a légué la famille Li : travail doux et fluide des arts culturels, exercices plus dynamiques du Feng Shou et du Chi Shu, pratiques de santé. Elle a pour volonté de fournir des exercices adaptés à chaque niveau, dans un cadre convivial où chacun s'enrichit des différences des autres."
+name                     : "Lishi France & AGCL"
 description              : "Lishi, wei hai li shi quan fa, gymnastique chinoise, arts martiaux, arts internes, arts énergétiques, yoga taoïste, culture physique chinoise, tai chi chuan, tai ji quan, taïchi chuan, taichi, chi kong, qi gong, qigong, chi gong, kai men, tao yin, dao yin, daoying, kung fu, wu shu, feng shou, chi shu, relaxation, respiration, bien etre, sante, la doua, charpennes, tonkin, gratte ciel, croix luizet, croix luiset, cusset, buers, villeurbanne, lyon"
 url                      : http://lishi.fr # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"

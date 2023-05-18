@@ -1,5 +1,5 @@
 ---
-layout: single_sans-nav
+layout: single
 title: "Association de gymnastique Chinoise de Lyon"
 permalink: /agcl/
 lang: fr

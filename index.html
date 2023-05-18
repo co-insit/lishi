@@ -2,5 +2,72 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+title: " "
+layout: splash
+permalink: /
+header:
+  overlay_color: 
+  overlay_filter: "0.1"
+  overlay_image: assets/photos/splash_1b.JPG
+  og_image: ""
+excerpt: "Lishi France, Art martial énergétique chinois"
+intro:
+  - excerpt: "**Bienvenue à l'AGCL** <br>**L'Association de Gymnastique Chinoise de Lyon** est une association de loi 1901 dont l'objectif est de permettre à toute personne le désirant <br> d'apprendre et de progresser dans le système d'exercices et de gestuelles que nous a légué la famille Li :<br>
+  travail doux et fluide des arts culturels, exercices plus dynamiques du **Feng Shou et du Chi Shu**, pratiques de santé.<br> 
+  Elle a pour volonté de fournir des exercices adaptés à chaque niveau, dans un cadre convivial où chacun s'enrichit des différences des autres."
+  
+feature_row:
+  - image_path: assets/photos/bienvenue1.jpg
+    alt: "Logo AGCL"
+    title: "L'association"
+    excerpt: "L'Association de Gymnastique Chinoise de Lyon est une association de loi 1901 dont l'objectif est de"
+    url: /agcl/
+    btn_label: "Nous découvrir"
+    btn_class: "btn--primary"
+  - image_path: assets/photos/bienvenue3.jpg
+    alt: ""
+    title: "Art traditionnel Lishi"
+    excerpt: "En savoir plus sur le Lishi, art martial énergétique."
+    url: "/lishi/"
+    btn_label: "Lishi"
+    btn_class: "btn--primary"
+  - image_path: assets/photos/bienvenue3.jpg
+    alt: ""
+    title: "Cours et stages"
+    excerpt: "Tout au long de l'année, l'association propose des stages européens, des cours en plein air, ainsi que des sorties dans une vraie dynamique de groupe. "
+    url: "/cours/"
+    btn_label: "Cours & stages"
+    btn_class: "btn--primary"
+  - image_path: assets/photos/bienvenue3.jpg
+    alt: ""
+    title: "Le lishi ici et ailleurs"    
+    excerpt: "Le lishi se pratique à Lyon, en France et à l'international"
+    url: /opensource/
+    btn_label: "Nos partenaires"
+    btn_class: "btn--primary" 
+  - image_path: assets/photos/bienvenue3.jpg
+    alt: "Technologie"
+    title: "Nous contacter" 
+    excerpt: " Envie d'essayer, de pratiquer ou de nous rejoindre"
+    url: "/contact/"
+    btn_label: "Contactez-nous"
+    btn_class: "btn--primary"
+
+feature_row2:
+  - image_path: /assets/images/vignettes/actualites1-b.jpg
+    alt: "photo"
+    title: "Dernières actualités"
+    excerpt: "Vous trouverez dans cette rubrique tout ce qui fait l'actualité de l'AGCL. Nos événement à venir, nos parutions... <br><br>
+    Excellente lecture."
+
+    url: "/actualites/"
+    btn_label: "Lire plus"
+    btn_class: "btn--primary"
+
 ---
+{% include feature_row id="intro" type="center1" %}
+
+{% include feature_row1 %}
+
+{% include feature_row1 id="feature_row2" type="left" %}
+
