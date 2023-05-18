@@ -7,10 +7,10 @@ classes : wide
 header:
 #  overlay_color: 
 # overlay_filter: "0.1"
- overlay_image: assets/images/
+ overlay_image: assets/photos/splash_1b.JPG
 #  og_image: ""
   
-excerpt: "Bienvenue à **l'AGCL**, une ambiance chaleureuse et dynamique"
+excerpt: "Une ambiance chaleureuse et dynamique"
 intro: 
   - excerpt: "**L'Association de Gymnastique Chinoise de Lyon** est une association de loi 1901 dont l'objectif est de permettre à toute personne le désirant d'apprendre et de progresser dans le système d'exercices et de gestuelles que nous a légué la famille Li :
 travail doux et fluide des arts culturels, exercices plus dynamiques du Feng Shou et du Chi Shu, pratiques de santé.

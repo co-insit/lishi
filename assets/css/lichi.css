@@ -8,7 +8,7 @@
 }
 
 #archive__item-body1 {
-    height: 350px;
+    height: auto;
     margin-bottom: 20px;
 }
 
@@ -24,7 +24,9 @@ article.splash {
 /* Position du titre et de l'excerpt dans bandeau */
 #conteneur.wrapper {
     justify-content: center;
+    
 }
+
 
 
 p.page__lead {
@@ -35,8 +37,20 @@ p.page__lead {
 /* =================== Centrer excerpt page d'accueil ================= */
 
 .page__hero--overlay .wrapper {
-    display: flex;
+    display: block;
 }
+
+.page__hero--overlay .page__lead {
+    max-width: 90%;
+}
+
+/*=================== Intro excerpt des pages ==================*/
+.feature__item--center .archive__item-body {
+    width: 95%;
+}
+
+
+
 
 /* ========================= Splash page intro centrée ============================ */
 
@@ -84,6 +98,19 @@ a.btn.btn--primary {
     background-color: rgba(255, 255, 255, 0.2);
 }
 
+/*=============== Couleur des éléments du menu et toggle menu ==========*/
+.navicon, .navicon::before, .navicon::after {
+    background-color: rgb(50, 98, 185);
+}
+
+.greedy-nav__toggle:hover .navicon, .greedy-nav__toggle:hover .navicon::before,.greedy-nav__toggle:hover .navicon::after {
+    background-color: rgba(50, 98, 185, 0.8);
+}
+
+
+.greedy-nav a:hover {
+    color: rgba(50, 98, 185, 0.8);
+}
 
 /* ========== footer ============== */
 #footer {
@@ -127,6 +154,12 @@ a.btn.btn--primary {
 .page__footer {
     background: rgb(50, 98, 185);
 }
+
+
+.social-icons .fas, .social-icons .fab, .social-icons .far, .social-icons .fal {
+    color: white;
+}
+
 /* ==================================================== */
 /* ================ Media Queries ===================== */
 /* ==================================================== */
