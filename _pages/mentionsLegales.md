@@ -4,7 +4,6 @@ title: "Mentions Légales"
 permalink: /mentionsLegales/
 lang: fr
 classes : wide
-
 ---
 
 ## Identification 

@@ -22,7 +22,7 @@ feature_row1:
     excerpt: "Relâcher les tensions physiques pour gagner progressivement en souplesse. En profiter aussi pour ressentir et retrouver les liens qui existent entre les différentes parties du corps et pouvoir ensuite les coordonner harmonieusement dans les exercices et les enchaînements."
   
 feature_row2:
-  - image_path: assets/photos/vignette-1.jpg
+  - image_path: assets/photos/vignette-2.jpg
     alt: "À l'international"
     title: "Respiration"
     excerpt: "Nous travaillons en relation avec plusieurs associations européennes qui pratiquent le même système d'exercices <br>
