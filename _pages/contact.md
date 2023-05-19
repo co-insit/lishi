@@ -8,5 +8,7 @@ classes : wide
 ---
 
 ## Contactez-nous : 
-contact@lichi.fr
-06 83 81 33 07
+- Courriel : contact(at)lishi.fr
+- tel : 06 83 81 33 07
+
+## Formulaire

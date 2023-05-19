@@ -7,7 +7,7 @@ classes : wide
 header:
 #  overlay_color: 
 # overlay_filter: "0.1"
- overlay_image: assets/photos/bienvenue2.jpg
+ overlay_image: assets/photos/splash-3.jpg
 #  og_image: ""
   
 excerpt: "La culture chinoise a toujours considéré le corps et l’esprit comme un tout indissociable et elle dispose d’une tradition plusieurs fois millénaire d’exercices physiques conçus dans des buts très divers: pour le combat, pour améliorer santé et bien être, dans le cadre de techniques d’éveil spirituel, … ces objectifs étant souvent indissociablement liés."
@@ -22,7 +22,7 @@ feature_row1:
     excerpt: "Relâcher les tensions physiques pour gagner progressivement en souplesse. En profiter aussi pour ressentir et retrouver les liens qui existent entre les différentes parties du corps et pouvoir ensuite les coordonner harmonieusement dans les exercices et les enchaînements."
   
 feature_row2:
-  - image_path: assets/photos/illustration-cours.jpg
+  - image_path: assets/photos/vignette-1.jpg
     alt: "À l'international"
     title: "Respiration"
     excerpt: "Nous travaillons en relation avec plusieurs associations européennes qui pratiquent le même système d'exercices <br>
@@ -30,7 +30,7 @@ feature_row2:
     Si vous êtes interessés par des cours ou des stages dans ces pays, vous pouvez nous contacter ou consulter leur site."
 
 feature_row3: 
-  - image_path: assets/photos/illustration-cours.jpg
+  - image_path: assets/photos/vignette-8.jpg
     alt: ""
     title: "Énergie"
     excerpt: "Quand le vent souffle, on voit s'agiter les branches des arbres.Mais on ne voit pas le vent...Comment retrouver ce souffle en nous, source de bien-être et de santé, qui nous rend plus fort sans être plus dur et qui nous enracine sans nous immobiliser?"

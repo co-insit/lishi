@@ -25,7 +25,7 @@ feature_row1:
     excerpt: "Qui rerum quos sequi occaecati. In voluptatem voluptates ea hic dolor rerum. Eum consequatur molestiae ut voluptatum fuga. Eligendi quam molestiae voluptatem quae voluptatum ut animi. Exercitationem consequatur voluptas aperiam nam sapiente veritatis. Totam omnis aut ipsa quasi "
   
 feature_row2:
-  - image_path: assets/photos/illustration-cours.jpg
+  - image_path: assets/photos/vignette-1.jpg
     alt: "À l'international"
     title: "À l'international"
     anchor: ""
@@ -34,11 +34,11 @@ feature_row2:
     Si vous êtes interessés par des cours ou des stages dans ces pays, vous pouvez nous contacter ou consulter leur site."
 
 feature_row3: 
-  - image_path: assets/photos/illustration-cours.jpg
+  - image_path: assets/photos/splash_2.jpg
     alt: ""
     title: "L'association"
     anchor: ""
-    excerpt: "L'AGCL est encadrée par son przésident, Jean-Pierre Nicolas, son trésorier, Frédéric Suquet, sa secrétaire Claire Mottet... et est animée par l'ensemble des participants aux cours !"
+    excerpt: "L'AGCL est encadrée par son président, Jean-Pierre Nicolas, son trésorier, Frédéric Suquet, sa secrétaire Claire Mottet... et est animée par l'ensemble des participants aux cours !"
 
 
     
